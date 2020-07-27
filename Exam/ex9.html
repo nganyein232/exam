@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggleClass("main");
+  });
+});
+</script>
+<style>
+.main {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px;
+  border:2px solid #666;
+}
+</style>
+</head>
+<body>
+
+
+<p><b>Note:</b> Click the button more than once to see the toggle effect.</p>
+<button>Click Me</button>
+
+
+</body>
+</html>
